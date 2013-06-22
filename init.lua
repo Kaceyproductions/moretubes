@@ -26,42 +26,17 @@ register_tube("moretubes:iso_orange_tube","orange isolated pneumatic tube segmen
 minetest.register_craft( {
 	output = "moretubes:iso_purple_tube 12",
 	recipe = {
-	        { "homedecor:plastic_sheeting", "homedecor:plastic_sheeting", "homedecor:plastic_sheeting" },
-                { "group:dye,basecolor_purple", "group:dye,basecolor_purple", "group:dye,basecolor_purple" },
-	        { "homedecor:plastic_sheeting", "homedecor:plastic_sheeting", "homedecor:plastic_sheeting" }
+	        { "group:dye,basecolor_purple" },
+            { "pipeworks:tube" },
+	        { "default:stone" }
 	},
 })
 
 minetest.register_craft( {
-	type = "shapeless",
-	output = "moretubes:iso_purple_tube 12",
-	recipe = {
-		"pipeworks:tube",
-		"pipeworks:tube",
-		"pipeworks:tube",
-		"pipeworks:tube",
-                "group:dye,basecolor_purple",
-	},
-})
-
-minetest.register_craft( {
-	output = "moretubes:iso_purple_tube 12",
-	recipe = {
-	        { "homedecor:plastic_sheeting", "homedecor:plastic_sheeting", "homedecor:plastic_sheeting" },
-                { "group:dye,basecolor_orange", "group:dye,basecolor_orange", "group:dye,basecolor_orange" },
-	        { "homedecor:plastic_sheeting", "homedecor:plastic_sheeting", "homedecor:plastic_sheeting" }
-	},
-})
-
-minetest.register_craft( {
-	type = "shapeless",
 	output = "moretubes:iso_orange_tube 12",
 	recipe = {
-		"pipeworks:tube",
-		"pipeworks:tube",
-		"pipeworks:tube",
-		"pipeworks:tube",
-                "group:dye,basecolor_orange",
+	        { "group:dye,basecolor_orange" },
+            { "pipeworks:tube" },
+	        { "default:stone" }
 	},
 })
-
