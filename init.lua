@@ -43,9 +43,16 @@ minetest.register_craft( {
                 "group:dye,basecolor_purple",
 	},
 })
-
 minetest.register_craft( {
-	output = "moretubes:iso_purple_tube 12",
+	output = "moretubes:iso_purple_tube 1",
+	recipe = {
+	        { "group:dye,basecolor_purple" },
+                { "pipeworks:tube" },
+	        { "group:dye,basecolor_purple" }
+	},
+})
+minetest.register_craft( {
+	output = "moretubes:iso_orange_tube 12",
 	recipe = {
 	        { "homedecor:plastic_sheeting", "homedecor:plastic_sheeting", "homedecor:plastic_sheeting" },
                 { "group:dye,basecolor_orange", "group:dye,basecolor_orange", "group:dye,basecolor_orange" },
@@ -65,3 +72,11 @@ minetest.register_craft( {
 	},
 })
 
+minetest.register_craft( {
+	output = "moretubes:iso_orange_tube 1",
+	recipe = {
+	        { "group:dye,basecolor_orange" },
+            { "pipeworks:tube" },
+	        { "group:dye,basecolor_orange" }
+	},
+})
