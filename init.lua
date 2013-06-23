@@ -40,7 +40,7 @@ minetest.register_craft( {
 		"pipeworks:tube",
 		"pipeworks:tube",
 		"pipeworks:tube",
-                "group:dye,basecolor_purple",
+        "group:dye,basecolor_purple",
 	},
 })
 minetest.register_craft( {
@@ -68,7 +68,7 @@ minetest.register_craft( {
 		"pipeworks:tube",
 		"pipeworks:tube",
 		"pipeworks:tube",
-                "group:dye,basecolor_orange",
+        "group:dye,basecolor_orange",
 	},
 })
 
@@ -80,3 +80,4 @@ minetest.register_craft( {
 	        { "group:dye,basecolor_orange" }
 	},
 })
+local modpath = minetest.get_modpath("moretubes")
