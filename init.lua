@@ -81,3 +81,4 @@ minetest.register_craft( {
 	},
 })
 local modpath = minetest.get_modpath("moretubes")
+dofile(modpath.."\filter.lua")
